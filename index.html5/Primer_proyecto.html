@@ -6,6 +6,7 @@
     <meta name="description" content="Web de mi top 10 de series favoritas"/>
     <meta name="keywords" content="series de television, series, netflix, HBO, películas, estrenos">
     <meta name="author" content="Fabiana Barbati">
+    <link rel="stylesheet" href="css.css">
     <link rel="shortcut icon" href="favicon-32x32.png">
 
     <title>Las mejores series segun Fabiana Barbati</title>
@@ -13,7 +14,7 @@
 
 <body>
     <header>
-        <h1 style="color: rgb(218, 183, 223); font-size: 36px">Top 10 de mejores series</h1>
+        <h1 style="color: rgb(102, 60, 107); font-size: 36px">Top 10 de mejores series</h1>
         <img src="./assets/images.png" alt="logo de netflix" height="300" width="500">
         <nav>
                 <ol>
@@ -98,7 +99,9 @@
 <footer>
     <section>
     <h3>Contacto 📩</h3>
-    <textarea rows="4" cols="50" placeholder="Comentame cual deberia ver para agregar..."></textarea><input type="submit" value="Enviar comentario"></section>
+    <form action="enviar_comentario.php" method="post">
+    <textarea rows="4" cols="50" placeholder="Comentame cual deberia ver para agregar..."></textarea><input type="submit" value="Enviar comentario"></form>
+  </section>
 
     <section>
         <h3>Registrate 🔒</h3>
@@ -110,6 +113,7 @@
           <input type="email" id="correo"/>
           <input type="submit" value="Registrarte"></section>
         </fieldset>
+        </form>
     </section>
       
     <nav>
